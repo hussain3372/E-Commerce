@@ -1,76 +1,89 @@
-import bgLaptop from "./images/bgLaptop.jpg";
-import bgmonitors from "./images/bgMonitor.jpg";
-import bgarchade from "./images/bgArchadeGames.jpg";
-import bgconsoleGames from "./images/bgGames.jpg";
-import bgCharger from "./images/bgCharger.jpg";
-import bgFightGames from "./images/bgFightGames.jpeg";
-import bgMobile from "./images/bgMobile.jpg";
-import bgAction1 from "./images/Action Game/Action1.webp";
-import bgAction2 from "./images/Action Game/Action2.webp";
-import bgAction3 from "./images/Action Game/Action3.webp";
-import bgAction4 from "./images/Action Game/Action4.webp";
-import bgAction5 from "./images/Action Game/Action5.webp";
-import bgAdventure1 from "./images/Adventure Game/Adventure Game1.webp";
-import bgAdventure2 from "./images/Adventure Game/Adventure Game2.webp";
-import bgAdventure3 from "./images/Adventure Game/Adventure Game3.webp";
-import bgAdventure4 from "./images/Adventure Game/Adventure Game4.webp";
-import bgAdventure5 from "./images/Adventure Game/Adventure Game5.webp";
-import bgPuzzle1 from "./images/Puzzle Game/Puzzle1.webp";
-import bgPuzzle2 from "./images/Puzzle Game/Puzzle2.webp";
-import bgPuzzle3 from "./images/Puzzle Game/Puzzle3.webp";
-import bgPuzzle4 from "./images/Puzzle Game/Puzzle4.webp";
-import bgPuzzle5 from "./images/Puzzle Game/Puzzle5.webp";
-import bgRGB1 from "./images/RGBs Game/RGBs1.webp";
-import bgRGB2 from "./images/RGBs Game/RGBs2.webp";
-import bgRGB3 from "./images/RGBs Game/RGBs3.webp";
-import bgRGB4 from "./images/RGBs Game/RGBs4.webp";
-import bgRGB5 from "./images/RGBs Game/RGBS5.webp";
-import bgSimulation1 from "./images/Simulation Game/Simulation1.webp";
-import bgSimulation2 from "./images/Simulation Game/Simulation2.webp";
-import bgSimulation3 from "./images/Simulation Game/Simulation3.webp";
-import bgSimulation4 from "./images/Simulation Game/Simulation4.webp";
-import bgSimulation5 from "./images/Simulation Game/Simulation5.webp";
-import bgStrategy1 from "./images/Strategy Game/Strategy Game1.webp";
-import bgStrategy2 from "./images/Strategy Game/Strategy Game2.webp";
-import bgStrategy3 from "./images/Strategy Game/Strategy Game3.webp";
-import bgStrategy4 from "./images/Strategy Game/Strategy Game4.webp";
-import bgStrategy5 from "./images/Strategy Game/Strategy Game5.webp";
+import Laptop from "./images/bgLaptop.jpg";
+import Monitor from "./images/bgMonitor.jpg";
+import ArchadeGames from "./images/bgArchadeGames.jpg";
+import Mobile from "./images/bgMobile.jpg";
+import ConsoleGames from "./images/bgGames.jpg";
+import Charger from "./images/bgCharger.jpg";
+import Headphones from "./images/headphones.jpg";
+import ActionGames from "./images/ActionGames/action-games.jpeg";
+import GrandTheftAuto from "./images/ActionGames/Grand-theft-auto-V.webp";
+import DarkSoulIII from "./images/ActionGames/dark.webp";
+import DevilMayCry from "./images/ActionGames/devil_may_cry.webp";
+import SekiroHanberi from "./images/ActionGames/sekiro-hanbei-comic.webp";
+import Doom from "./images/ActionGames/doom.webp";
+import LifeIsStrange from "./images/AdventureGames/Life-Is-Strange.webp";
+import AdventureGames from "./images/AdventureGames/adventure-games.webp";
+import LegendOfZelda from "./images/AdventureGames/legend-of-zelda.webp";
+import MonkeyIsland from "./images/AdventureGames/monkey-island.webp";
+import TheWalkingDead from "./images/AdventureGames/the-walking-dead.webp";
+import TheifEnd from "./images/AdventureGames/theif-end.webp";
+import Divinity from "./images/RolePlayingGames/divinity.webp";
+import ElderScrolls from "./images/RolePlayingGames/elder-scrolls.webp";
+import FinalFantasy from "./images/RolePlayingGames/final-fantasy-VII.webp";
+import RolePlayingGames from "./images/RolePlayingGames/role-playing-games.webp";
+import TheOuterWorld from "./images/RolePlayingGames/the-outer-worlds.webp";
+import Witcher from "./images/RolePlayingGames/witcher.webp";
+import Civilization from "./images/StrategyGames/civilization.webp";
+import SidMeiresAlphaCentauri from "./images/StrategyGames/sid-meires-alpha-centauri.webp";
+import StarCraft from "./images/StrategyGames/star-craft.webp";
+import StrategyGames from "./images/StrategyGames/strategy-games.webp";
+import ThreeKingdoms from "./images/StrategyGames/total-war-three-kingdoms.webp";
+import Xcom2 from "./images/StrategyGames/xcom-2.webp";
+import FarmingSimulator from "./images/SimulationGames/farming-simulator.webp";
+import FlightSimulator from "./images/SimulationGames/flight-simulator.webp";
+import NeedForSpeed from "./images/SimulationGames/need-for-speed.webp";
+import Simcity from "./images/SimulationGames/simcity.webp";
+import SimulationGames from "./images/SimulationGames/simulation-games.webp";
+import TruckSimulator from "./images/SimulationGames/truck-simulator.webp";
+import CandyCrush from "./images/PuzzleGames/candy-crush-saga.webp";
+import Portal from "./images/PuzzleGames/portal.webp";
+import PuzzleGame from "./images/PuzzleGames/puzzle-game.webp";
+import Sokobond from "./images/PuzzleGames/sokobond.webp";
+import Tetris from "./images/PuzzleGames/tetris.webp";
+import Witness from "./images/PuzzleGames/witness.webp";
+
 export {
-  bgLaptop,
-  bgmonitors,
-  bgarchade,
-  bgconsoleGames,
-  bgCharger,
-  bgFightGames,
-  bgMobile,
-  bgAction1,
-  bgAction2,
-  bgAction3,
-  bgAction4,
-  bgAction5,
-  bgAdventure1,
-  bgAdventure2,
-  bgAdventure3,
-  bgAdventure4,
-  bgAdventure5,
-  bgPuzzle1,
-  bgPuzzle2,
-  bgPuzzle3,
-  bgPuzzle4,
-  bgPuzzle5,
-  bgRGB1,
-  bgRGB2,
-  bgRGB3,
-  bgRGB4,
-  bgRGB5,
-  bgSimulation1,
-  bgSimulation2,
-  bgSimulation3,
-  bgSimulation4,
-  bgSimulation5,
-  bgStrategy1,
-  bgStrategy2,
-  bgStrategy3,
-  bgStrategy4,
-  bgStrategy5,
+  Laptop,
+  Charger,
+  Mobile,
+  Monitor,
+  Headphones,
+  ConsoleGames,
+  ArchadeGames,
+  ActionGames,
+  GrandTheftAuto,
+  DarkSoulIII,
+  DevilMayCry,
+  SekiroHanberi,
+  Doom,
+  LifeIsStrange,
+  AdventureGames,
+  LegendOfZelda,
+  MonkeyIsland,
+  TheWalkingDead,
+  TheifEnd,
+  Divinity,
+  ElderScrolls,
+  FinalFantasy,
+  RolePlayingGames,
+  TheOuterWorld,
+  Witcher,
+  Civilization,
+  SidMeiresAlphaCentauri,
+  StarCraft,
+  StrategyGames,
+  ThreeKingdoms,
+  Xcom2,
+  FarmingSimulator,
+  FlightSimulator,
+  NeedForSpeed,
+  Simcity,
+  SimulationGames,
+  TruckSimulator,
+  CandyCrush,
+  Portal,
+  PuzzleGame,
+  Sokobond,
+  Tetris,
+  Witness,
 };

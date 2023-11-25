@@ -74,10 +74,19 @@ export default () => {
               })}
               <div className="flex-1 items-center justify-end gap-x-6 space-y-3 md:flex md:space-y-0">
                 <li>
-                  <Btn2 title={"SignUp"} />
+                  <Link to="/register">
+                    <Btn2 title={"SignUp"} />
+                  </Link>
                 </li>
                 <li>
-                  <Btn title={"Login"} />
+                  <Link to="/login">
+                    <Btn title={"Login"} />
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/dashboard">
+                    <Btn2 title={"Dashboard"} />
+                  </Link>
                 </li>
               </div>
             </ul>
